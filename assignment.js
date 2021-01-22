@@ -1,5 +1,5 @@
 
-
+// https://github.com/danilsonplacid/Assignment-3
 
 // kilometerToMeter
 
@@ -8,8 +8,6 @@ function kilometerToMeter(convertMeter){
     var meter = convertMeter*1000;
     return meter;
 }
-
-
 
 
 
@@ -27,7 +25,6 @@ function budgetCalculator(watch,mobile,laptop){
     total = watch + mobile + laptop;
     return total;
 }
-
 
 
 //  hotelCost 
@@ -58,23 +55,20 @@ function hotelCost (day){
 
 
 
-
-
-
-
-
 // megaFriend 
 
-    function megaFriend(friendNames) {
-        var max = friendNames[0];
-        for (var i = 0; i < friendNames.length; i++) {
-            var element = friendNames[i];
+    function megaFriend(friendsName) {
+        var max = friendsName[0];
+        for (var i = 0; i < friendsName.length; i++) {
+            var element = friendsName[i];
             if (max.length < element.length) {
                 max = element;
             }
         }
         return max;
+        
     }
+    
     
     
     
